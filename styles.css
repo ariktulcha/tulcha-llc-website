@@ -324,12 +324,23 @@ body {
 .logo-placeholder.madeira { background: linear-gradient(135deg, #43e97b, #38f9d7); }
 .logo-placeholder.tokyo { background: linear-gradient(135deg, #fa709a, #fee140); }
 .logo-placeholder.tbilisi { background: linear-gradient(135deg, #a8edea, #fed6e3); }
+.logo-placeholder.rome { background: linear-gradient(135deg, #ff6b6b, #feca57); }
+.logo-placeholder.tbilisi-hebrew { background: linear-gradient(135deg, #ff9a9e, #fecfef); }
+.logo-placeholder.athens-hebrew { background: linear-gradient(135deg, #a8e6cf, #dcedc1); }
 
 .brand-name {
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--text-dark);
     margin-bottom: 0.5rem;
+}
+
+.brand-name small {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--text-light);
+    display: block;
+    margin-top: 0.2rem;
 }
 
 .brand-location {
