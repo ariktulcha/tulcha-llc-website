@@ -6,6 +6,16 @@
     <title>Tulcha LLC - Empowering Global Experiences in Tourism & Entertainment</title>
     <meta name="description" content="Tulcha LLC is a holding company managing a diverse portfolio of leading brands in travel, entertainment, and hospitality worldwide.">
     
+    <!-- Prevent search engine indexing -->
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate">
+    <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <meta http-equiv="X-Robots-Tag" content="noindex, nofollow, noarchive, nosnippet">
+    
+    <!-- Additional privacy protection -->
+    <meta name="referrer" content="no-referrer">
+    <meta name="format-detection" content="telephone=no">
+    
     <!-- Facebook Domain Verification -->
     <meta name="facebook-domain-verification" content="h3qs6u5hytt04ncgwvop7gnpem5r1n" />
     
@@ -16,7 +26,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=2">
 </head>
 <body>
     <!-- Navigation -->
@@ -30,13 +40,13 @@
                     <a href="#hero" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#brands" class="nav-link">Our Brands</a>
-                </li>
-                <li class="nav-item">
                     <a href="#mission" class="nav-link">Mission</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#brands" class="nav-link">Our Brands</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#technology" class="nav-link">Technology</a>
                 </li>
                 <li class="nav-item">
                     <a href="#contact" class="nav-link">Contact</a>
@@ -74,183 +84,6 @@
                     <div class="floating-card card-3">
                         <i class="fas fa-users"></i>
                         <span>Trusted Partners</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Our Brands Section -->
-    <section id="brands" class="brands">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Our Global Portfolio</h2>
-                <p class="section-subtitle">Experience the world with our carefully curated brands, each offering unique and unforgettable adventures.</p>
-            </div>
-            
-            <div class="brands-grid">
-                <!-- Athens Brand -->
-                <div class="brand-card">
-                    <div class="brand-logo">
-                        <div class="logo-placeholder athens">
-                            <i class="fas fa-landmark"></i>
-                        </div>
-                    </div>
-                    <div class="brand-content">
-                        <h3 class="brand-name">Olympia Adventures</h3>
-                        <p class="brand-location">Athens, Greece</p>
-                        <p class="brand-description">Immerse yourself in ancient history with exclusive archaeological experiences and expert-guided tours through Greece's most iconic landmarks.</p>
-                        <div class="brand-tags">
-                            <span class="tag">Historical Tours</span>
-                            <span class="tag">Archaeology</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Madrid Brand -->
-                <div class="brand-card">
-                    <div class="brand-logo">
-                        <div class="logo-placeholder madrid">
-                            <i class="fas fa-futbol"></i>
-                        </div>
-                    </div>
-                    <div class="brand-content">
-                        <h3 class="brand-name">Madrid Futbol Pass</h3>
-                        <p class="brand-location">Madrid, Spain</p>
-                        <p class="brand-description">Get exclusive access to the world's most exciting football matches and sporting events in the heart of Spain's football capital.</p>
-                        <div class="brand-tags">
-                            <span class="tag">Football Tickets</span>
-                            <span class="tag">Sports Events</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Paris Brand -->
-                <div class="brand-card">
-                    <div class="brand-logo">
-                        <div class="logo-placeholder paris">
-                            <i class="fas fa-music"></i>
-                        </div>
-                    </div>
-                    <div class="brand-content">
-                        <h3 class="brand-name">Parisian Harmony</h3>
-                        <p class="brand-location">Paris, France</p>
-                        <p class="brand-description">Discover the cultural heart of Paris with premium concert tickets, theatre experiences, and immersive cultural workshops.</p>
-                        <div class="brand-tags">
-                            <span class="tag">Concerts</span>
-                            <span class="tag">Cultural Events</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Madeira Brand -->
-                <div class="brand-card">
-                    <div class="brand-logo">
-                        <div class="logo-placeholder madeira">
-                            <i class="fas fa-mountain"></i>
-                        </div>
-                    </div>
-                    <div class="brand-content">
-                        <h3 class="brand-name">Madeira Explorer</h3>
-                        <p class="brand-location">Madeira, Portugal</p>
-                        <p class="brand-description">Adventure awaits with breathtaking nature tours, challenging hiking expeditions, and unforgettable outdoor experiences in paradise.</p>
-                        <div class="brand-tags">
-                            <span class="tag">Nature Tours</span>
-                            <span class="tag">Outdoor Adventures</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Tokyo Brand -->
-                <div class="brand-card">
-                    <div class="brand-logo">
-                        <div class="logo-placeholder tokyo">
-                            <i class="fas fa-torii-gate"></i>
-                        </div>
-                    </div>
-                    <div class="brand-content">
-                        <h3 class="brand-name">Tokyo Zen Travel</h3>
-                        <p class="brand-location">Tokyo, Japan</p>
-                        <p class="brand-description">Explore authentic Japanese culture through unique experiences, traditional food tours, and hands-on cultural workshops.</p>
-                        <div class="brand-tags">
-                            <span class="tag">Cultural Experiences</span>
-                            <span class="tag">Food Tours</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Tbilisi Brand -->
-                <div class="brand-card">
-                    <div class="brand-logo">
-                        <div class="logo-placeholder tbilisi">
-                            <i class="fas fa-wine-glass"></i>
-                        </div>
-                    </div>
-                    <div class="brand-content">
-                        <h3 class="brand-name">Georgian Trails</h3>
-                        <p class="brand-location">Tbilisi, Georgia</p>
-                        <p class="brand-description">Savor the rich flavors of Georgia with exclusive wine tours, culinary masterclasses, and authentic local adventures.</p>
-                        <div class="brand-tags">
-                            <span class="tag">Wine Tours</span>
-                            <span class="tag">Culinary Experiences</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Rome Brand -->
-                <div class="brand-card">
-                    <div class="brand-logo">
-                        <div class="logo-placeholder rome">
-                            <i class="fas fa-church"></i>
-                        </div>
-                    </div>
-                    <div class="brand-content">
-                        <h3 class="brand-name">בונג'ורנו רומא <small>(Buongiorno Roma)</small></h3>
-                        <p class="brand-location">Rome, Italy</p>
-                        <p class="brand-description">חברת סיורים ברומא המתמחה בסיורים מודרכים בעברית ובחוויות תרבותיות אותנטיות ברחבי העיר הנצחית</p>
-                        <div class="brand-tags">
-                            <span class="tag">סיורים בעברית</span>
-                            <span class="tag">אתרים היסטוריים</span>
-                            <span class="tag">חוויות תרבותיות</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Tbilisi Hebrew Tours Brand -->
-                <div class="brand-card">
-                    <div class="brand-logo">
-                        <div class="logo-placeholder tbilisi-hebrew">
-                            <i class="fas fa-mountain-city"></i>
-                        </div>
-                    </div>
-                    <div class="brand-content">
-                        <h3 class="brand-name">טביליסי טיולים <small>(Tbilisi Tours)</small></h3>
-                        <p class="brand-location">Tbilisi, Georgia</p>
-                        <p class="brand-description">חברת סיורים בטביליסי המציעה סיורים מודרכים בעברית, טיולי יין וחוויות קולינריות בגאורגיה היפה</p>
-                        <div class="brand-tags">
-                            <span class="tag">סיורים בעברית</span>
-                            <span class="tag">טיולי יין</span>
-                            <span class="tag">חוויות קולינריות</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Athens Hebrew Tours Brand -->
-                <div class="brand-card">
-                    <div class="brand-logo">
-                        <div class="logo-placeholder athens-hebrew">
-                            <i class="fas fa-columns"></i>
-                        </div>
-                    </div>
-                    <div class="brand-content">
-                        <h3 class="brand-name">אתונה סיורים <small>(Athens Tours)</small></h3>
-                        <p class="brand-location">Athens, Greece</p>
-                        <p class="brand-description">חברת סיורים באתונה המתמחה בסיורים ארכיאולוגיים והיסטוריים בעברית באתונה העתיקה ובאיי יוון</p>
-                        <div class="brand-tags">
-                            <span class="tag">סיורים בעברית</span>
-                            <span class="tag">ארכיאולוגיה</span>
-                            <span class="tag">היסטוריה עתיקה</span>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -295,61 +128,292 @@
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
+    <!-- Our Brands Section -->
+    <section id="brands" class="brands">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Expertise</h2>
-                <p class="section-subtitle">Comprehensive solutions for unforgettable travel and entertainment experiences</p>
+                <h2 class="section-title">Our Global Portfolio</h2>
+                <p class="section-subtitle">Experience the world with our carefully curated brands, each offering unique and unforgettable adventures.</p>
             </div>
             
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-futbol"></i>
+            <div class="brands-grid">
+                <!-- Madridos Brand -->
+                <div class="brand-card">
+                    <div class="brand-logo">
+                        <div class="logo-placeholder madrid">
+                            <span class="flag-icon">🇪🇸</span>
+                        </div>
                     </div>
-                    <h3 class="service-title">Football & Sports</h3>
-                    <p class="service-description">Exclusive access to major sporting events, premium seating, and VIP experiences at the world's most prestigious venues.</p>
+                    <div class="brand-content">
+                        <h3 class="brand-name">Madridos <small>מדרידוס</small></h3>
+                        <p class="brand-location">Madrid, Spain</p>
+                        <p class="brand-description">A leading tour company in Madrid offering guided tours in Hebrew and authentic culinary experiences throughout the Spanish capital.</p>
+                        <div class="brand-actions">
+                            <a href="https://madridos.co.il" target="_blank" class="brand-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Visit Website
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-camera"></i>
+                <!-- Buongiorno Roma Brand -->
+                <div class="brand-card">
+                    <div class="brand-logo">
+                        <div class="logo-placeholder rome">
+                            <span class="flag-icon">🇮🇹</span>
+                        </div>
                     </div>
-                    <h3 class="service-title">Attractions & Tours</h3>
-                    <p class="service-description">Curated tours and tickets to iconic landmarks with expert guides and skip-the-line access to popular destinations.</p>
+                    <div class="brand-content">
+                        <h3 class="brand-name">Buongiorno Roma <small>בונג'ורנו רומא</small></h3>
+                        <p class="brand-location">Rome, Italy</p>
+                        <p class="brand-description">Tour company in Rome specializing in Hebrew-guided tours and authentic cultural experiences throughout the eternal city.</p>
+                        <div class="brand-actions">
+                            <a href="https://buongiornoroma.co.il" target="_blank" class="brand-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Visit Website
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-music"></i>
+                <!-- Yasas Athens Brand -->
+                <div class="brand-card">
+                    <div class="brand-logo">
+                        <div class="logo-placeholder athens">
+                            <span class="flag-icon">🇬🇷</span>
+                        </div>
                     </div>
-                    <h3 class="service-title">Concerts & Events</h3>
-                    <p class="service-description">Front-row seats to world-class performances, exclusive backstage access, and premium entertainment experiences.</p>
+                    <div class="brand-content">
+                        <h3 class="brand-name">Yasas Athens <small>יאסאס אתונה</small></h3>
+                        <p class="brand-location">Athens, Greece</p>
+                        <p class="brand-description">Professional tour company in Athens specializing in archaeological tours, Acropolis visits, and Greek island day trips with Hebrew-speaking guides.</p>
+                        <div class="brand-actions">
+                            <a href="https://yasasathens.com" target="_blank" class="brand-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Visit Website
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-hands"></i>
+                <!-- Travlisi Brand -->
+                <div class="brand-card">
+                    <div class="brand-logo">
+                        <div class="logo-placeholder tbilisi">
+                            <span class="flag-icon">🇬🇪</span>
+                        </div>
                     </div>
-                    <h3 class="service-title">Workshops & Experiences</h3>
-                    <p class="service-description">Hands-on workshops and unique local encounters that provide authentic cultural immersion and skill development.</p>
+                    <div class="brand-content">
+                        <h3 class="brand-name">Travlisi <small>טרבליסי</small></h3>
+                        <p class="brand-location">Tbilisi, Georgia</p>
+                        <p class="brand-description">Tour company in Tbilisi offering authentic Georgian experiences, wine tours, and cultural adventures in the beautiful capital of Georgia.</p>
+                        <div class="brand-actions">
+                            <a href="https://travelisitours.com/" target="_blank" class="brand-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Visit Website
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-bed"></i>
+                <!-- Parison Brand -->
+                <div class="brand-card">
+                    <div class="brand-logo">
+                        <div class="logo-placeholder paris">
+                            <span class="flag-icon">🇫🇷</span>
+                        </div>
                     </div>
-                    <h3 class="service-title">Hotels & Hospitality</h3>
-                    <p class="service-description">Seamless booking for quality accommodations, from boutique hotels to luxury resorts, ensuring comfort and convenience.</p>
+                    <div class="brand-content">
+                        <h3 class="brand-name">Parison <small>פריזון</small></h3>
+                        <p class="brand-location">Paris, France</p>
+                        <p class="brand-description">Paris tour company specializing in Hebrew-guided tours, culinary experiences, and romantic walks through the most beautiful neighborhoods of Paris.</p>
+                        <div class="brand-actions">
+                            <a href="https://parison.co.il/" target="_blank" class="brand-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Visit Website
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-concierge-bell"></i>
+                <!-- Milanese Brand -->
+                <div class="brand-card">
+                    <div class="brand-logo">
+                        <div class="logo-placeholder milan">
+                            <span class="flag-icon">🇮🇹</span>
+                        </div>
                     </div>
-                    <h3 class="service-title">Concierge Services</h3>
-                    <p class="service-description">Personalized travel planning and 24/7 support to ensure every aspect of your journey exceeds expectations.</p>
+                    <div class="brand-content">
+                        <h3 class="brand-name">Milanese <small>מילאנזי</small></h3>
+                        <p class="brand-location">Milan, Italy</p>
+                        <p class="brand-description">Milan tour company offering fashion tours, cultural experiences, and exclusive access to Italy's fashion capital and business hub.</p>
+                        <div class="brand-actions">
+                            <a href="https://milantravelers.com/" target="_blank" class="brand-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Visit Website
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Yalla Dubai Brand -->
+                <div class="brand-card">
+                    <div class="brand-logo">
+                        <div class="logo-placeholder dubai">
+                            <span class="flag-icon">🇦🇪</span>
+                        </div>
+                    </div>
+                    <div class="brand-content">
+                        <h3 class="brand-name">Yalla Dubai <small>יאללה דובאי</small></h3>
+                        <p class="brand-location">Dubai, UAE</p>
+                        <p class="brand-description">Dubai jeep tour company specializing in desert safaris, dune bashing adventures, and authentic Emirati experiences in the Arabian desert.</p>
+                        <div class="brand-actions">
+                            <a href="https://yalla-dubai.co.il/" target="_blank" class="brand-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Visit Website
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Anoprague Brand -->
+                <div class="brand-card">
+                    <div class="brand-logo">
+                        <div class="logo-placeholder prague">
+                            <span class="flag-icon">🇨🇿</span>
+                        </div>
+                    </div>
+                    <div class="brand-content">
+                        <h3 class="brand-name">Anoprague <small>אנופראג</small></h3>
+                        <p class="brand-location">Prague, Czech Republic</p>
+                        <p class="brand-description">Prague tour company offering historical walking tours, castle visits, and cultural experiences in the beautiful Czech capital.</p>
+                        <div class="brand-actions">
+                            <a href="https://anoprague.co.il/" target="_blank" class="brand-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Visit Website
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MyTips Brand -->
+                <div class="brand-card">
+                    <div class="brand-logo">
+                        <div class="logo-placeholder mytips">
+                            <span class="flag-icon">📘</span>
+                        </div>
+                    </div>
+                    <div class="brand-content">
+                        <h3 class="brand-name">MyTips <small>טיפים שלי</small></h3>
+                        <p class="brand-location">Facebook Community</p>
+                        <p class="brand-description">Facebook community with over 30 groups and more than 1 million members sharing travel tips, recommendations, and experiences worldwide.</p>
+                        <div class="brand-actions">
+                            <a href="https://www.facebook.com/groups/Tips4Paris" target="_blank" class="brand-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Visit Website
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Madeira Brand -->
+                <div class="brand-card">
+                    <div class="brand-logo">
+                        <div class="logo-placeholder madeira">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                    </div>
+                    <div class="brand-content">
+                        <h3 class="brand-name">Madeira Explorer</h3>
+                        <p class="brand-location">Madeira, Portugal</p>
+                        <p class="brand-description">Adventure awaits with breathtaking nature tours, challenging hiking expeditions, and unforgettable outdoor experiences in paradise.</p>
+                        <div class="coming-soon-badge">
+                            <span class="coming-soon-label">Coming Soon</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tokyo Brand -->
+                <div class="brand-card">
+                    <div class="brand-logo">
+                        <div class="logo-placeholder tokyo">
+                            <i class="fas fa-torii-gate"></i>
+                        </div>
+                    </div>
+                    <div class="brand-content">
+                        <h3 class="brand-name">Tokyo Zen Travel</h3>
+                        <p class="brand-location">Tokyo, Japan</p>
+                        <p class="brand-description">Explore authentic Japanese culture through unique experiences, traditional food tours, and hands-on cultural workshops.</p>
+                        <div class="coming-soon-badge">
+                            <span class="coming-soon-label">Coming Soon</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Technology Section -->
+    <section id="technology" class="technology">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">AI-Powered Technology</h2>
+                <p class="section-subtitle">Leading the future of travel with cutting-edge artificial intelligence solutions</p>
+            </div>
+            
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="tech-title">Dedicated Mobile App</h3>
+                    <p class="tech-description">Our custom-built mobile application provides seamless booking experiences, real-time updates, and personalized travel recommendations powered by AI algorithms.</p>
+                </div>
+
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="tech-title">AI Customer Service</h3>
+                    <p class="tech-description">24/7 intelligent customer support powered by advanced AI chatbots that understand multiple languages and provide instant, accurate assistance to travelers worldwide.</p>
+                </div>
+
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="tech-title">Booking Predictions</h3>
+                    <p class="tech-description">Machine learning algorithms analyze historical data and market trends to predict booking patterns, optimize pricing, and ensure availability for our customers.</p>
+                </div>
+
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3 class="tech-title">Flight Load Analysis</h3>
+                    <p class="tech-description">AI-powered analysis of flight schedules and traveler patterns helps us optimize tour capacity, reduce wait times, and enhance the overall travel experience.</p>
+                </div>
+
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <h3 class="tech-title">AI Content Generation</h3>
+                    <p class="tech-description">Advanced natural language processing creates personalized travel guides, descriptions, and recommendations tailored to each traveler's preferences and interests.</p>
+                </div>
+
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="tech-title">AI as Default</h3>
+                    <p class="tech-description">Artificial intelligence is integrated into every aspect of our operations, from initial customer contact to post-trip follow-up, ensuring consistent excellence and innovation.</p>
                 </div>
             </div>
         </div>
@@ -387,7 +451,7 @@
                             <i class="fas fa-envelope"></i>
                             <div>
                                 <h4>Get in Touch</h4>
-                                <p>partnerships@tulchallc.com</p>
+                                <p>info@tulcha-llc.com</p>
                             </div>
                         </div>
                     </div>
@@ -474,6 +538,6 @@
     </footer>
 
     <!-- JavaScript -->
-    <script src="script.js"></script>
+    <script src="script.js?v=2"></script>
 </body>
 </html>
